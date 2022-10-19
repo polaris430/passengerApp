@@ -1,5 +1,4 @@
 let counter = 0;
-let counterReset = counter - counter;
 let countEl = document.getElementById("count-el");
 let paraEl = document.getElementById("previous");
 
@@ -14,5 +13,6 @@ function save() {
   //get counter from increment function and display on console
   let countStr = " " + counter + " - ";
   paraEl.textContent = paraEl.textContent + countStr;
-  countEl.textContent = counterReset;
+  countEl.textContent = 0;
+  count = 0;
 }
