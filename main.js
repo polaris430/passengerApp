@@ -14,5 +14,5 @@ function save() {
   let countStr = " " + counter + " - ";
   paraEl.textContent = paraEl.textContent + countStr;
   countEl.textContent = 0;
-  count = 0;
+  counter = 0;
 }
